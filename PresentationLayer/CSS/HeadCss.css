@@ -1,0 +1,225 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+
+
+header
+{
+  position: absolute;
+  /*background: radial-gradient(#e6e6ff,#00001a);*/
+  background: #081621;
+  width: 100%;
+  color: blanchedalmond;
+  height: 12vh;
+}
+
+.head-container
+{
+  max-width: 100%;
+  margin: auto;
+  /* #padding-left: 10%;
+  #padding-right: 10%; */
+}
+
+.navigation
+{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+
+
+nav
+{
+  flex: 1;
+  text-align: right;
+}
+
+
+nav ul
+{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li
+{
+  display: inline-block;
+  margin-right: 25px;
+}
+
+.logo{
+  margin-left: 45px;
+  margin-right: 35px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.logo img
+{
+  display: inline-block;
+  width: 150px;
+  height: 45px;
+}
+
+
+a
+{
+  /* #position: relative; */
+  color: white;
+  text-decoration: none;
+  /* #margin-right: 20px; */
+}
+
+
+
+.outline {
+    background: #3749BB;
+}
+
+.button {
+    
+    display: inline-block;
+    border: 2px solid #3749BB;
+    padding: 0 20px;
+    margin: 0;
+    height: 42px;
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+}
+
+
+
+/* *************Search Bar************** */
+
+::selection{
+  color: black;
+  /*background: #081621;*/
+}
+
+
+.srch-container{
+    width: 450px;
+    /* //margin: 20px ; */
+    display: inline-block;
+  margin-right: 30px;
+  margin-left: 20px;
+  /* //margin-top: 20px; */
+
+
+
+  /* //float: right;
+
+  //flex: 1;
+
+  
+
+  //flex: 1;
+  //text-align: right;
+  //align-items: right; */
+}
+
+
+
+.srch-container .search-input{
+  background: #fff;
+  color: black;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+
+
+
+
+  /* //flex: 1;
+  
+  //align-items: right; */
+}
+
+.search-input input{
+  height: 43px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 15px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+
+.search-input.active input{
+  border-radius: 5px 5px 0 0;
+}
+
+
+.search-input .autocom-box{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+
+.search-input.active .autocom-box{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.autocom-box li{
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+
+.search-input.active .autocom-box li{
+  display: block;
+}
+
+.autocom-box li:hover{
+  background: #efefef;
+  /* //background: black; */
+}
+
+.search-input .icon{
+  position: absolute;
+  right: 0px;
+  top: 13px;
+
+  height: 25px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 15px;
+  
+  color: black;
+  cursor: pointer;
+}
+
+/* #addProductButton{
+  visibility: hidden;
+} */

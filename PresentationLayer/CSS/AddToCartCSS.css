@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: georgia, sans-serif;
+}
+
+.container
+{
+	width: 75%;
+	/* #min-height: 80%; */
+	float: center;
+	/* #margin: auto;
+	#padding-left: 50px;
+	#padding-right: 50px;
+	#border: 2px solid grey;
+	#margin: 10px; */
+	background-color: #dadada;
+	margin-right: 25px;
+	margin-left: 25px;
+
+	justify-content: center;
+}
+
+td .price
+{
+	width: 80px;
+	height: 10px;
+	padding: 5px;
+
+  
+  background-color: red;
+}
+
+.cart
+{
+	margin: 80px auto;
+}
+
+table
+{
+	//border-radius: 8px;
+	width: 100%;
+	/* #border-collapse: collapse; */
+}
+
+.product-info
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+th{
+	text-align: left;
+	padding: 5px;
+	/* #color: ; */
+	background: radial-gradient(#bbb9bd,#9a9aa2);
+	font-weight: normal;
+}
+
+td{
+	padding: 10px 5px;
+}
+
+td input
+{
+	width: 60px;
+	height: 30px;
+	padding: 5px;
+}
+
+td a{
+	color: red;
+	font-size: 15px;
+}
+
+.img-box
+{
+	width: 80px;
+	height: 80px;
+	margin-right: 10px;
+	background-color: whitesmoke;
+	cursor: pointer;
+}
+
+.btn{
+
+	position: relative;
+	//height: 30px;
+	text-align: center;
+	//margin-bottom: 20px;
+
+	//top: 0%;
+  
+  	border: none;
+    padding: 15px 70px;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    
+    background: #3749BB;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    -moz-box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+    box-shadow: 0px 9px 15px -11px rgba(88,54,114,1);
+}
