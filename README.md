@@ -1,5 +1,7 @@
 # Computer-Shop-Web-Techonologh-
-This project focus on homepage and specification page of online computer shop. Language used to build: HTML, PHP, Java Script, CSS. This is a structure of any online shop so all the work are not done yet, but the main structure are completed.  
+Company Name(TROJAN HORSE).This project focus on homepage and specification page of online computer shop. Language used to build: HTML, PHP, Java Script, CSS. This is a structure of any online shop so all the work are not done yet, but the main structure are completed.  
+
+
 ![image](https://user-images.githubusercontent.com/56672054/133956024-f9c01f63-b624-494a-986a-fe0bcfd4a068.png)
 ![image](https://user-images.githubusercontent.com/56672054/133956043-8dcc7a85-e8b0-4d68-8778-54f6004ed810.png)
 ![image](https://user-images.githubusercontent.com/56672054/133956068-12b2f0a4-5269-4fd4-bda6-d0a0e433cfe7.png)
